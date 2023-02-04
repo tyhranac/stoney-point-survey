@@ -1,3 +1,5 @@
+/** palette https://coolors.co/3e78b2-004ba8-4a525a-24272b-07070a **/
+
 * {
     padding: 0;
     margin: 0;
@@ -5,4 +7,22 @@
 
 html, body {
     height: 100%;
+}
+
+main {
+    height: 100%;
+}
+
+.map-survey-grid {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.map-container {
+    background-color:#3E78B2;
+}
+
+.survey-container {
+    background-color:#24272B;
 }
